@@ -11,7 +11,7 @@ Wheel shall be available in `dist` folder.
 
 ## Test that library works
 
-Start duck-server in a separate terminal.
+First, start duck-server in a separate terminal. Then:
 
 ```dos
 pip install ducklib-1.0.0-cp37-cp37m-win_amd64.whl
