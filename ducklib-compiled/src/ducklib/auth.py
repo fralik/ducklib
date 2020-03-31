@@ -2,7 +2,7 @@
 import requests
 
 
-def is_user_valid(username: str = "", password: str = ""):
+def is_user_valid(username: str = "", password: str = "") -> bool:
     udata = {
         "username": username,
         "password": password
