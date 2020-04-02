@@ -19,6 +19,7 @@ class build_py(_build_py):
         filtered_modules = []
         for (pkg, mod, filepath) in modules:
             # a dirty way to omit .py files from .whl
+            # and alternative may be to have empty packages in setup
             if 'auth' in filepath:
                 continue
             filtered_modules.append((pkg, mod, filepath, ))
